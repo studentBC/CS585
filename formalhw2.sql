@@ -225,8 +225,27 @@ insert into notification values(15, '2020-04-22', 'mandatory', 22, null, 22);
 //Q1 
 
 //Q2
-select symptomid, count(symptomid) from symptom group by symptomid order by count(*) DESC;
+//select symptomid, count(symptomid) from symptom group by symptomid order by count(*) DESC;
+select symptomid from (select symptomid, count(symptomid) from symptom
+group by symptomid order by count(*) DESC) as s
+where s.count = (
+select max(count) from (select symptomid, count(symptomid) from symptom
+group by symptomid order by count(*) DESC) as ss
+)
 //Q3
+select floornumber from 
+(
+	select floornumber, count(floornumber) from Employee, cases
+	where cases.employeeid = Employee.ID
+	group by floornumber
+) as f where f.count = (
+	select count(floornumber) from Employee, cases
+	where cases.employeeid = Employee.ID
+	group by floornumber 
+	order by count(floornumber) DESC limit 1
+)
+
+
 select floornumber, count(floornumber)
 from Employee
 where ID in (select employeeID from cases)
@@ -263,3 +282,13 @@ FROM notification
 WHERE meetingID in (select meetingID from meeting join cases USING (employeeID))
 and employeeID in (select employeeID from test where testResult = 'negative');
 
+
+SELECT count(s.employeeID) as scan_count, count(t.employeeID) as test_count, count(sym.employeeID) as sym_count, count(c.employeeID) as cases_count
+FROM scan s, test t, symptom sym, cases c
+WHERE s.scanDate BETWEEN '2020-03-01' AND '2020-06-30'
+and t.testDate BETWEEN '2020-03-01' AND '2020-06-30'
+and sym.dateReported BETWEEN '2020-03-01' AND '2020-06-30'
+and c.date BETWEEN '2020-03-01' AND '2020-06-30'
+and s.employeeID = t.employeeID
+and t.employeeID = sym.employeeID
+and sym.employeeID = c.employeeID
