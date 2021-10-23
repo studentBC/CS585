@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>hw3</name>
+	<gx:CascadingStyle kml:id="__managed_style_26F88579EB1DDF5FEC8A">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=fbc02d&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<gx:displayMode>card</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_18C6C8E04D1DDF5FEC8A">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=fbc02d&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<gx:displayMode>card</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_2B053CE15F1DDF5CC146">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1C662701871DDF5CC146">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0E4F757AD41DDF5FEC8A">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_18C6C8E04D1DDF5FEC8A</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_26F88579EB1DDF5FEC8A</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_0ACC21828E1DDF5CC146">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1C662701871DDF5CC146</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2B053CE15F1DDF5CC146</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0CDADD5A241DDF5CC145">
+		<name>cromwell field</name>
+		<LookAt>
+			<longitude>-118.2875889621171</longitude>
+			<latitude>34.02195096639696</latitude>
+			<altitude>53.54021437051641</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>351.185594843264</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0ACC21828E1DDF5CC146</styleUrl>
+		<Point>
+			<coordinates>-118.2877833152337,34.02199489829736,53.60015359413897</coordinates>
+		</Point>
+	</Placemark>
+
+    <Placemark id="convexHull">
+        <name>convex Hull</name>
+        <LineString>
+			<coordinates>
+				-118.2854769,34.0187152,0
+				-118.287140740681,34.0189030151496,0
+				-118.290482899195,34.0193122745498,0
+				-118.2950497,34.0281516,0
+				-118.28536648856,34.0249135528897,0
+				-118.282786654411,34.0215038545213,0
+				-118.283573905338,34.0202898484805,0
+				-118.2854769,34.0187152,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+
+	<Placemark id="065539776F1DDF5FEC83">
+		<name>home</name>
+		<gx:mid>/g/11c5lpq9xg</gx:mid>
+		<gx:fid>0x80c2c7f6c04c1f21:0x77a48e21b0aab032</gx:fid>
+		<LookAt>
+			<longitude>-118.2950497</longitude>
+			<latitude>34.0281516</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>857.6476778597711</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0E4F757AD41DDF5FEC8A</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-118.2950497,34.0281516,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="073A0A69131DDF6093CF">
+		<name>Marshall business</name>
+		<gx:mid>/m/06t2qb</gx:mid>
+		<gx:fid>0x80c2c7e61a5fe2a5:0xd5c93aafa6055e2e</gx:fid>
+		<LookAt>
+			<longitude>-118.2854769</longitude>
+			<latitude>34.0187152</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>857.7527170739835</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0E4F757AD41DDF5FEC8A</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-118.2854769,34.0187152,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F485A5E501DDF60FBBA">
+		<name>Lyon recreation</name>
+		<LookAt>
+			<longitude>-118.2893380332525</longitude>
+			<latitude>34.02384467881572</latitude>
+			<altitude>52.43517712160843</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>846.6837307882088</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0ACC21828E1DDF5CC146</styleUrl>
+		<Point>
+			<coordinates>-118.2883817232572,34.02438438781299,70.91561075682749</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0EDE3A7AE61DDF617377">
+		<name>CS585</name>
+		<LookAt>
+			<longitude>-118.2888755145379</longitude>
+			<latitude>34.02130831755486</latitude>
+			<altitude>65.72055377395446</altitude>
+			<heading>1.507365076766631e-09</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>385.777466559739</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0ACC21828E1DDF5CC146</styleUrl>
+		<Point>
+			<coordinates>-118.289292917747,34.02126126671823,61.06046471831936</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0956E77A6F1DDF6267D1">
+		<name>Ogasawara plaza</name>
+		<LookAt>
+			<longitude>-118.2904828991954</longitude>
+			<latitude>34.0193122745498</latitude>
+			<altitude>72.7809558796411</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>227.4088471487266</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0ACC21828E1DDF5CC146</styleUrl>
+		<Point>
+			<coordinates>-118.2907536984917,34.0193666336606,52.83255596772293</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01B82328FF1DDF630E10">
+		<name>USC village</name>
+		<LookAt>
+			<longitude>-118.2853664885601</longitude>
+			<latitude>34.02491355288966</latitude>
+			<altitude>74.55715922450509</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>475.4350033215452</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0ACC21828E1DDF5CC146</styleUrl>
+		<Point>
+			<coordinates>-118.2853453542714,34.02512724796446,55.76598050758295</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F871E50FA1DDF63722D">
+		<name>Cinema Arts</name>
+		<LookAt>
+			<longitude>-118.2861790231339</longitude>
+			<latitude>34.02323439582364</latitude>
+			<altitude>77.6201080014105</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>472.372037210953</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0ACC21828E1DDF5CC146</styleUrl>
+		<Point>
+			<coordinates>-118.2864331461883,34.02341342203415,54.75946537381299</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="088985D3651DDF63B316">
+		<name>Leavey lib</name>
+		<LookAt>
+			<longitude>-118.2827866544105</longitude>
+			<latitude>34.02150385452134</latitude>
+			<altitude>60.33975308204789</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>489.6523745448212</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0ACC21828E1DDF5CC146</styleUrl>
+		<Point>
+			<coordinates>-118.2829468106354,34.02165056903428,57.1772809941014</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DA46896431DDF64D979">
+		<name>Fisher museum</name>
+		<LookAt>
+			<longitude>-118.2871407406807</longitude>
+			<latitude>34.01890301514963</latitude>
+			<altitude>59.7216223978683</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>490.2704747645474</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0ACC21828E1DDF5CC146</styleUrl>
+		<Point>
+			<coordinates>-118.2873441646049,34.0187997852137,64.55190300757101</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C6A2BFBE11DDF657FD6">
+		<name>Doheny Lib</name>
+		<LookAt>
+			<longitude>-118.2835739053385</longitude>
+			<latitude>34.02028984848046</latitude>
+			<altitude>68.59242244091735</altitude>
+			<heading>8.482375273755568e-07</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>481.399712161583</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0ACC21828E1DDF5CC146</styleUrl>
+		<Point>
+			<coordinates>-118.2836965936378,34.02014070432276,71.80528881613795</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0CDF924F2A1DDF665AE1">
+		<name>CS dept</name>
+		<LookAt>
+			<longitude>-118.2892501652446</longitude>
+			<latitude>34.01976498803835</latitude>
+			<altitude>88.37086194335414</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>130.5030956271366</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0ACC21828E1DDF5CC146</styleUrl>
+		<Point>
+			<coordinates>-118.2894268281673,34.01951335111412,65.90847134714571</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E23FA2C4E1DDF66FB3A">
+		<name>THH</name>
+		<LookAt>
+			<longitude>-118.2843549662237</longitude>
+			<latitude>34.0224166104442</latitude>
+			<altitude>55.46113948042536</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>482.0796502164013</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0ACC21828E1DDF5CC146</styleUrl>
+		<Point>
+			<coordinates>-118.2845864600217,34.02224459179484,70.86539128805637</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
